@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --texthover: #0a58ca;
+}
+ 
+body{
+    /* font-family:none !important; */
+}
+
+#Navbar .nav-link a {
+    transition: ease-in-out color(1s);
+}
+
+
+#Navbar .nav-link li a {
+    transition: 1s;
+}
+#Navbar .nav-link li:hover a{
+background-color: red;
+/* color: white !important; */
+padding:10px; 
+color: white !important;
+letter-spacing: 1px !important;
+}
+
+
+#Navbar .nav-link a:hover {
+    color: var(--texthover) !important;
+}
+
+
+#Hero-Section {
+      background-image:  linear-gradient(180deg, rgba(46, 157, 255, 0.5), rgba(46, 157, 255, 0.22)),
+    /* url("https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1a6617b93138_photo-1416359658663-73a3834895eb.jpg"); */
+    ;height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/layered-paper-cut-background_167650-4645.avif);
+}
+#Hero-Section .social-icons a{
+    border-radius: 50%;
+    height: 8vh;
+    width: 8vh;
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* #Hero-Section .social-icons .bi{
+    transition: 1s;
+} */
+#Hero-Section .social-icons a:hover{
+    color: black !important;
+}

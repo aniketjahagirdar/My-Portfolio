@@ -123,8 +123,8 @@ letter-spacing: 1px !important;
         
     }
     #Hero-Section .social-icons a:hover{
-        background-color: none;
-        outline: none;
+        background-color: none !important;
+        outline: none !important;
     }
     
 }

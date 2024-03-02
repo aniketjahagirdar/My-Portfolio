@@ -106,8 +106,8 @@ letter-spacing: 1px !important;
     transition: 0.5s;
 }
 #About-Skills .skill-button button:hover{
-    background-color: transparent !important;
-    color: white !important;
+    background-color: transparent ;
+    color: white ;
 }
 #About-Skills .owl-theme .owl-dots .owl-dot span{
     background-color: black;

@@ -126,5 +126,8 @@ letter-spacing: 1px !important;
         background-color: none !important;
         outline: none !important;
     }
+    #Projects .tab-content .model{
+        display: none !important;
+    }
     
 }

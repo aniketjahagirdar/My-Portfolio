@@ -105,7 +105,7 @@ letter-spacing: 1px !important;
 #About-Skills .skill-button{
     transition: 0.5s;
 }
-#About-Skills .skill-button:hover{
+#About-Skills .skill-button button:hover{
     background-color: transparent !important;
     color: white !important;
 }

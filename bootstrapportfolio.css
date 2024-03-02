@@ -115,3 +115,11 @@ letter-spacing: 1px !important;
 #About-Skills .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
     background-color: var(--bootsrapyellow);
 }
+
+
+@media only screen and (max-width: 425px) { 
+    #Hero-Section .social-icons a{
+        border: none !important;
+    }
+    
+}

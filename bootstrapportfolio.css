@@ -120,6 +120,11 @@ letter-spacing: 1px !important;
 @media only screen and (max-width: 425px) { 
     #Hero-Section .social-icons a{
         border: none !important;
+        
+    }
+    #Hero-Section .social-icons a:hover{
+        background-color: none;
+        outline: none;
     }
     
 }

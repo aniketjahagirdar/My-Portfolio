@@ -84,7 +84,7 @@ letter-spacing: 1px !important;
 }
 #Projects .img-div:hover .img-hover-content{
     display: flex !important;
-    /* opacity: 1; */
+    opacity: 1;
     justify-content: space-evenly;
     align-items: center;
 }

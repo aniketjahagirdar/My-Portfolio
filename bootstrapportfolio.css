@@ -82,7 +82,7 @@ letter-spacing: 1px !important;
     transition: 0.5s;
     color: black !important;
 }
-#Projects .tab-content .img-div:hover .img-hover-content{
+#Projects .img-div:hover .img-hover-content{
     display: flex !important;
     /* opacity: 1; */
     justify-content: space-evenly;
